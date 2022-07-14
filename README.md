@@ -1,0 +1,1 @@
+Automatic invoice creation server. Leverages AWS textract and Waveapps accounting software

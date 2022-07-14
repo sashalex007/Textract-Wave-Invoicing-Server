@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.95.0",
+    "@aws-sdk/client-textract": "^3.95.0",
+    "@aws-sdk/node-http-handler": "^3.94.0",
+    "amazon-textract-response-parser": "^0.2.0",
+    "graphql": "^16.5.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
