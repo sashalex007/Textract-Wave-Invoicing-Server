@@ -2,6 +2,8 @@ I got tired of using docparser and zapier to automatically create my invoices. N
 
 This application is build on Nodejs, so you could run it on a server or locally. 
 
+I would have like this to be sleeker, but for this to work you first need to get a bunch of data from the wave API, so be ready to uncomment and/or delete certain lines of code (i tell you which ones). 
+
 Guide: 
 
 1. Setup your AWS CLI and credentials (and setup access to S3 and Textract) https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
@@ -26,5 +28,5 @@ const waveBusinessID = 'XXXXX' //business id goes here
 
 9. Place a sample purchase order in the purchase order folder and run 'node server.js', wait for successful Textract result. If S3 upload (and deletion) and textract response was successful, you can now build a custom parser for the textract response.
 
-10. Uncomment //let invoiceData = parseTextractData(textractResult), and start building your parsing logic. You must provide data in the correct format for the invoice creation. Follow the code in the parseTextractData function. 
+10. Uncomment //let invoiceData = parseTextractData(textractResult), and start building your parsing logic. You must provide data in the correct format for the invoice creation. Follow the code in the parseTextractData function to build out your logic. You will require customers.js and products.js to get the right ID's.  
 
