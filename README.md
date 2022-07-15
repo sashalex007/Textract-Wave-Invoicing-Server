@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.gif)
 
-I got tired of using docparser and zapier to automatically create my invoices. Not only is docparser overpriced and sometimes fails for no apparent reason, its also limited in functionality. So I dedicated a weekend to building my own automatic invoicing with Nodejs. This application leverages AWS textract to convert PDF's (in my case its purchase orders) to text, and then create invoices automatically using Waveapps GraphQL based API. This solution is practically free (Textract charges less than 1 cent per page). Completed invoices are then downloaded automatically to a folder of your choosing. 
+I got tired of using docparser and zapier to automatically create my invoices. Not only is docparser overpriced and sometimes fails for no apparent reason, its also limited in functionality. So I dedicated a weekend to building my own automatic invoicing server with Nodejs. This application leverages AWS textract to convert PDF's (in my case its purchase orders) to text, and then create invoices automatically using Waveapps GraphQL based API. This solution is practically free (Textract charges less than 1 cent per page). Completed invoices are then downloaded automatically to a folder of your choosing. 
 
 This application is built on Nodejs, therefore can be run locally or remotely. 
 
