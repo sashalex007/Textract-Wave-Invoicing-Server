@@ -6,7 +6,7 @@ I got tired of using docparser and zapier to automatically create my invoices. N
 
 This application is built on Nodejs, therefore can be run locally or remotely. 
 
-I would have liked for this to be sleeker, but for this to work you first need to get a bunch of data from the wave API, so be ready to uncomment and/or delete certain lines of code (I tell you which ones). You will need to write your own parsing logic as your PDF's will be different from mine.
+I would have liked for this to be sleeker, but for this to work you first need to get a bunch of data from the wave API, so be ready to uncomment and/or delete certain lines of code (I tell you which ones). You will need to write your own parsing logic as your PDF's will be different from mine. I will refactor this at some point. 
 
 ## Guide: 
 ### *More detailed steps in server.js*
