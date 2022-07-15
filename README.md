@@ -8,7 +8,7 @@ This application is built on Nodejs, therefore can be run locally or remotely.
 
 I would have liked for this guide to be sleeker, but for this application to work you first need to get a bunch of data from the wave API, so be ready to uncomment and/or delete certain lines of code (I tell you which ones). You will need to code your own parsing logic as your PDF's will be different from mine. I will refactor this at some point. 
 
-Cant code? No problem. Hire me to build this for you. 
+Don't code? No problem. Hire me to build this for you. 
 alexpokho@gmail.com
 
 ## Guide: 
